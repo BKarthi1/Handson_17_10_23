@@ -1,0 +1,18 @@
+Project:
+ Name: Handson_17_10_23_Design
+ ProjectNamespaceIndex: 4
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ ProductVersion: 1.2
+ CoreVersion: 2.0
+ Dependencies:
+  2:
+   Uri: Handson_17_10_23
+   RelativePath: Handson_17_10_23.optix
+  3:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 2.1
+ Nodes: []

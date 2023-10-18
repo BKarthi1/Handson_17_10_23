@@ -1,0 +1,224 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: Variable1
+  Id: g=1117dfe5cbcdc819039b4dc553993ca2
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variable2
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variable3
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Var
+  Id: g=221531e847f5e85c2f194587b79d3050
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: VFD_UDTInstance
+  Type: VFD_UDT
+  Children:
+  - Name: Status
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Actual_Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Actual_Current
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Alarm_Code
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: VFD_UDT
+  Id: g=e58ee458410f3d35e6fdd376ca0ac2cf
+  Supertype: BaseObjectType
+  Children:
+  - Name: Status
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Actual_Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Actual_Current
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Alarm_Code
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: VFD_UDT1
+  Id: g=335c35eb799c595309d78d5e1d08ffed
+  Type: VFD_UDT
+  Children:
+  - Name: Status
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Actual_Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Actual_Current
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Alarm_Code
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: VFD_UDT2
+  Id: g=b1ba34621faac767b040b59c86ef5f5c
+  Type: VFD_UDT
+  Children:
+  - Name: Status
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Actual_Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Actual_Current
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Alarm_Code
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: Process_Line_1
+  Type: Process_Line
+  Children:
+  - Name: Conveyor_1
+    Type: VFD_UDT
+    Children:
+    - Name: Status
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Actual_Speed
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Actual_Current
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Alarm_Code
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+  - Name: Conveyor_2
+    Type: VFD_UDT
+    Children:
+    - Name: Status
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Actual_Speed
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Actual_Current
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Alarm_Code
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+- Name: Process_Line
+  Id: g=4448669a499e5ef4bbb458aa3d9d103d
+  Supertype: BaseObjectType
+  Children:
+  - Name: Conveyor_1
+    Type: VFD_UDT
+    Children:
+    - Name: Status
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Actual_Speed
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Actual_Current
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Alarm_Code
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+  - Name: Conveyor_2
+    Type: VFD_UDT
+    Children:
+    - Name: Status
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Actual_Speed
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Actual_Current
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Alarm_Code
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+- Name: Process_Line_2
+  Type: Process_Line
+  Children:
+  - Name: Conveyor_1
+    Type: VFD_UDT
+    Children:
+    - Name: Status
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Actual_Speed
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Actual_Current
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Alarm_Code
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+  - Name: Conveyor_2
+    Type: VFD_UDT
+    Children:
+    - Name: Status
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Actual_Speed
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Actual_Current
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Alarm_Code
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
